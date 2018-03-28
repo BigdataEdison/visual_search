@@ -5,7 +5,9 @@ import java.util.Map;
 import org.elasticsearch.script.ExecutableScript;
 import org.elasticsearch.script.NativeScriptFactory;
 import org.elasticsearch.script.ScriptException;
-
+/**
+*通过余弦值去计算的图片相似度
+*/
 public class CosineScorerFactory implements NativeScriptFactory {
 	public static final String SCRIPT_NAME = "cosine_score";
 
